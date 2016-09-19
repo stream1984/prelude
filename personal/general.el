@@ -1,5 +1,4 @@
   ;;; code
-(setq ns-use-native-fullscreen nil)
 
 ;;
 (setq default-frame-alist
