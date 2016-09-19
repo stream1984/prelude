@@ -2,9 +2,9 @@
 (setq tramp-ssh-controlmaster-options)
 
 ;;设置command键为M-
-(setq mac-option-key-is-meta nil
-      mac-command-key-is-meta t
-      mac-command-modifier 'meta)
+;; (setq mac-option-key-is-meta nil
+;;       mac-command-key-is-meta t
+;;       mac-command-modifier 'meta)
 
 ;;启动时全屏
 (toggle-frame-maximized)
