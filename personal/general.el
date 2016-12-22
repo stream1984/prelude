@@ -4,6 +4,9 @@
 (setq default-frame-alist
       (append (list '(alpha . (95 85))) default-frame-alist))
 
+;; open a file without frames
+(setq ns-pop-up-frames nil)
+
 (add-to-list 'ido-ignore-files "\\.DS_Store")
 
 ;; Work around a bug on OS X where system-name is a fully qualified
@@ -92,7 +95,7 @@
  nxml-attribute-indent 2
  nxml-slash-auto-complete-flag t)
 
-(add-hook 'json-mode-hook
-          (lambda ()
-            (make-local-variable 'js-indent-level)
-            (setq js-indent-level 2)))
+;; (add-hook 'json-mode-hook
+;;           (lambda ()
+;;             (make-local-variable 'js-indent-level)
+;;             (setq js-indent-level 2)))
